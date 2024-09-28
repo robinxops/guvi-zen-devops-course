@@ -5,7 +5,7 @@
 **Step 1:** Create a directory called ***"my_folder"***.
 
 ```bash
-# Create "my_folder" directory
+# create "my_folder" directory
 mkdir my_folder
 
 # list all files
@@ -29,7 +29,7 @@ ls -lah
 **Step 3:** Create a file named ***"my_file.txt"*** with some text.
 
 ```bash
-# Create "my_file.txt"
+# create "my_file.txt"
 echo "This is my_file.txt" > my_file.txt
 
 # list all files
@@ -44,7 +44,7 @@ cat my_file.txt
 **Step 4:** Create another file named ***"another_file.txt"*** with some text.
 
 ```bash
-# Create "another_file.txt"
+# create "another_file.txt"
 echo "This is another_file.txt" > another_file.txt
 
 # list all files
@@ -59,7 +59,7 @@ cat another_file.txt
 **Step 5:** Concatenate the content of ***"another_file.txt"*** to ***"my_file.txt"*** and display the updated content.
 
 ```bash
-# Concatenate the content of "another_file.txt" to "my_file.txt"
+# concatenate the content of "another_file.txt" to "my_file.txt"
 cat another_file.txt >> my_file.txt
 
 # list all files
