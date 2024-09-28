@@ -1,0 +1,10 @@
+1. welcome to the world of shell scripting.
+2. give yourself a chance.
+3. this line does not have the word welcome.
+4. Welcome! Remember to give your best!
+5. welcome everyone, give your best.
+6. give and take is important.
+7. welcome to the give club.
+8. the word give appears here, without welcome.
+9. welcome to learning!
+10. welcome, please give it a try.
