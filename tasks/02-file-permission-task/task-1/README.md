@@ -12,7 +12,7 @@ touch demo.txt
 ls -lah
 ```
 
-![Result 1]()
+![Result 1](./result-1.png)
 
 **Step 2:** Change the permission set of that file, so that any ***user*** can **"read"** it, ***group*** can **"read/write"** & ***owner*** can **"read/write/execute"** it.
 
@@ -24,4 +24,4 @@ chmod 764 demo.txt
 ls -l
 ```
 
-![Result 2]()
+![Result 2](./result-2.png)
