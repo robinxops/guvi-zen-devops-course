@@ -19,7 +19,7 @@ ls -lah
 **Step 2:** Rename the first 5 files to ***".yml"*** extension.
 
 ```bash
-# Rename the first 5 files to ***".yml"*** extension
+# Rename the first 5 files to ".yml" extension
 for i in {1..5}; do 
   mv "file_$(printf "%02d" $i).txt" "file_$(printf "%02d" $i).yml"; 
 done
