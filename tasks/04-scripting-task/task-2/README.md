@@ -8,7 +8,7 @@
 cat demo.txt
 ```
 
-![Result 1]()
+![Result 1](./result-1.png)
 
 **Step 2:** Replace all occurrence of the word ***"give"*** with ***"learning"*** from 5th line till the end in only those lines that contain the word ***"welcome"***.
 
@@ -34,8 +34,17 @@ echo "Replacement completed successfully in $FILE."
 **Step 3:** Make the script executable.
 
 ```bash
+# list files
+ls -l
+
+# mae the file executable
 chmod +x replace_word.sh
+
+# list files to ensure permission set
+ls -l
 ```
+
+![Result 2](./result-2.png)
 
 **Step 4:** Run the script with arguments.
 
@@ -43,10 +52,12 @@ chmod +x replace_word.sh
 ./replace_word.sh demo.txt
 ```
 
-![Result 2]()
+![Result 3](./result-3.png)
 
 **Step 5:** Print words replaced file.
 
 ```bash
 cat demo.txt
 ```
+
+![Result 4](./result-4.png)

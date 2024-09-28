@@ -31,8 +31,17 @@ fi
 **Step 2:** Make the script executable.
 
 ```bash
+# list files
+ls -l
+
+# mae the file executable
 chmod +x check_http_status.sh
+
+# list files to ensure permission set
+ls -l
 ```
+
+![Result 1](./result-1.png)
 
 **Step 3:** Run the script with arguments.
 
@@ -40,4 +49,4 @@ chmod +x check_http_status.sh
 ./check_http_status.sh https://guvi.in
 ```
 
-![Result]()
+![Result 2](./result-2.png)
