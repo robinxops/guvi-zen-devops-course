@@ -12,7 +12,7 @@ mkdir my_folder
 ls -lah
 ```
 
-![Result 1]()
+![Result 1](./result-1.png)
 
 **Step 2:** Navigate into ***"my_folder"***.
 
@@ -24,7 +24,7 @@ cd my_folder
 ls -lah
 ```
 
-![Result 2]()
+![Result 2](./result-2.png)
 
 **Step 3:** Create a file named ***"my_file.txt"*** with some text.
 
@@ -39,7 +39,7 @@ ls -lah
 cat my_file.txt
 ```
 
-![Result 3]()
+![Result 3](./result-3.png)
 
 **Step 4:** Create another file named ***"another_file.txt"*** with some text.
 
@@ -54,7 +54,7 @@ ls -lah
 cat another_file.txt
 ```
 
-![Result 4]()
+![Result 4](./result-4.png)
 
 **Step 5:** Concatenate the content of ***"another_file.txt"*** to ***"my_file.txt"*** and display the updated content.
 
@@ -69,7 +69,7 @@ ls -lah
 cat my_file.txt
 ```
 
-![Result 5]()
+![Result 5](./result-5.png)
 
 **Step 6:** List all files and directories in the current directory.
 
@@ -78,4 +78,4 @@ cat my_file.txt
 ls -lah
 ```
 
-![Result 6]()
+![Result 6](./result-6.png)

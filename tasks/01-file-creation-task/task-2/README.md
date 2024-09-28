@@ -14,7 +14,7 @@ done
 ls -lah
 ```
 
-![Result 1]()
+![Result 1](./result-1.png)
 
 **Step 2:** Rename the first 5 files to ***".yml"*** extension.
 
@@ -28,7 +28,7 @@ done
 ls -lah
 ```
 
-![Result 2]()
+![Result 2](./result-2.png)
 
 ***Step 3:*** Print the latest created top 5 files among the total no of files.
 
@@ -37,4 +37,4 @@ ls -lah
 ls -t | head -n 5
 ```
 
-![Result 3]()
+![Result 3](./result-3.png)
