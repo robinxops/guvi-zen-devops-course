@@ -1,6 +1,8 @@
-# 4. Scripting Task
+# Guvi Zen DevOps Course - Tasks
 
-## Task Description
+## 4. Scripting Task
+
+### Task Description
 
 1. Create a shell script to print the HTTP error code of ***guvi.in*** & print, the success/failure message based on the error code response.
 

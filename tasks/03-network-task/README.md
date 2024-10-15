@@ -1,6 +1,8 @@
-# 3. Network Task
+# Guvi Zen DevOps Course - Tasks
 
-## Task Description
+## 3. Network Task
+
+### Task Description
 
 1. Get me the IP address of a particular domain (guvi.in). How do I find my CPU/memory usage of my server?. Test the connectivity between 2 nodes?
 
