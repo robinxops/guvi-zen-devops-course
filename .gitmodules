@@ -1,3 +1,6 @@
-[submodule "tasks/05-vcs-task/task-1/devops-vcs-task"]
+[submodule "devops-vcs-task"]
 	path = tasks/05-vcs-task/task-1/devops-vcs-task
 	url = git@github.com:christine-robinson/devops-vcs-task.git
+[submodule "reactjs-ecommerce-application"]
+	path = projects/01-reactjs-ecommerce-application-deployment/project
+	url = https://github.com/sriram-R-krishnan/devops-build.git
