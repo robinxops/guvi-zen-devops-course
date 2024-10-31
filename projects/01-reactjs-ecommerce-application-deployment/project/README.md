@@ -118,7 +118,7 @@ echo """\
 node_modules/
 
 # Local development and test directories
-build/
+# build/
 dist/
 
 # Environment files (environment variables should be set in Docker)
@@ -193,3 +193,54 @@ git push --set-upstream origin dev
 ![Commit dev changes](./images/33-commit-dev-changes.png)
 
 ![Publish new branch](./images/34-publish-dev-branch.png)
+
+#### 3. Automate the Build & Deploy process using Bash Scripts
+
+**Step 1:** Create ***build.sh*** to automate the ***build*** a docker image & ***push*** to ***DockerHub*** operations
+
+```bash
+echo """
+
+""" > build.sh
+```
+
+![create build.sh by terminal]()
+
+![build.sh output]()
+
+**Step 2:** Create ***deploy.sh*** to automate the deployment with ***docker compose***
+
+```bash
+echo """\
+
+""" > deploy.sh
+```
+
+![create deploy.sh by terminal]()
+
+![deploy.sh output]()
+
+**Step 3:** Commit the changes & push to ***GitHub***
+
+```bash
+# Stage Changes
+git add .
+
+# Commit Changes
+git commit -m "Bash Scripts"
+
+# Publish to dev branch
+git push dev
+```
+
+#### 4. CICD with Jenkins
+
+> To install Jenkins follow the steps in the [Jenkins Installation on Ubuntu](https://www.jenkins.io/doc/book/installing/linux/#debianubuntu) from the official Jenkins Documentation.
+
+- Created an **EC2 Instance** in the name of ***guvi-p1-jenkins*** with ***ubuntu*** from ***AWS*** (Dedicated for ***Jenkins***)
+
+- Enabled ports 22(ssh) & 8080(Jenkins Dashboard) in the ***SG (Security Group)*** attached to the ***guvi-p1-jenkins*** instance
+
+- Connect to the ***guvi-p1-jenkins*** EC2 via SSH.
+
+- Installed Java & Jenkins
