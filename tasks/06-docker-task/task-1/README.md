@@ -128,8 +128,8 @@ docker rm web
 ```
 
 ![Result 13](./result-13.png)
-![Result 13](./result-13.png)
 ![Result 14](./result-14.png)
+![Result 15](./result-15.png)
 
 ***Docker Volumes Commands***
 
@@ -148,7 +148,6 @@ docker stop web
 docker rm web
 ```
 
-![Result 15](./result-15.png)
 ![Result 16](./result-16.png)
 ![Result 17](./result-17.png)
 ![Result 18](./result-18.png)
