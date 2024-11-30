@@ -199,12 +199,15 @@ docker run -d --name db --network nginx-network -e MYSQL_ROOT_PASSWORD=root mysq
 
 # Check db connection within the web container
 docker exec -it web /bin/bash
+
+# Install mysql client inside web container
 apt-get update && apt-get install -y default-mysql-client
+
+# Connect to db
 mysql -h db -u root -p
+# Enter the password - "root"
 
-# Enter password as value of "MYSQL_ROOT_PASSWORD"
-
-# Exit from db connection
+# Quit from mysql connection
 exit
 
 # Exit from container
