@@ -2,12 +2,12 @@
 
 ## Instructions ##
 
-**Step 1:** Launch an EC2 instance and open port 80 in its security group.
+### 1. Launch an EC2 instance and open port 80 in its security group ###
 
 ![Result 1](./screenshots/result-1.png)
 ![Result 2](./screenshots/result-2.png)
 
-**Step 2:** Install Docker Engine on the EC2 Instance.
+### 2. Install Docker Engine on the EC2 Instance ###
 
 > ***Ref:*** [https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
 
@@ -37,7 +37,7 @@ sudo usermod -aG docker $USER
 sudo reboot
 ```
 
-**Step 3:** Verify the Installation.
+### 3. Verify the Installation ###
 
 ```bash
 # Verify the installation 
@@ -46,7 +46,7 @@ docker run hello-world
 
 ![Result 3](./screenshots/result-3.png)
 
-**Step 4:** Create required files.
+### 4. Create required files ###
 
 > index.html
 
@@ -195,7 +195,7 @@ services:
 
 ![Result 4](./screenshots/result-4.png)
 
-**Step 5:** Run the docker container & visit the website by IP address of EC2 instance.
+### 5. Run the docker container & visit the website by IP address of EC2 instance ###
 
 ```bash
 docker compose up -d --build
