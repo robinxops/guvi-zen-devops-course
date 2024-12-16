@@ -4,7 +4,7 @@
 
 **Step 1:** Launch an EC2 Instance.
 
-![Result 1](./result-01.png)
+![Result 1](./screenshots/result-01.png)
 
 **Step 2:** Install Docker Engine on the EC2 Instance.
 
@@ -43,7 +43,7 @@ sudo reboot
 docker run hello-world
 ```
 
-![Result 2](./result-02.png)
+![Result 2](./screenshots/result-02.png)
 
 **Step 4:** Explore Docker Commands.
 
@@ -60,9 +60,9 @@ docker images
 docker rmi nginx
 ```
 
-![Result 3](./result-03.png)
-![Result 4](./result-04.png)
-![Result 5](./result-05.png)
+![Result 3](./screenshots/result-03.png)
+![Result 4](./screenshots/result-04.png)
+![Result 5](./screenshots/result-05.png)
 
 ***Docker Containers Commands***
 
@@ -83,11 +83,11 @@ docker stop web
 docker rm web
 ```
 
-![Result 6](./result-06.png)
-![Result 7](./result-07.png)
-![Result 8](./result-08.png)
-![Result 9](./result-09.png)
-![Result 10](./result-10.png)
+![Result 6](./screenshots/result-06.png)
+![Result 7](./screenshots/result-07.png)
+![Result 8](./screenshots/result-08.png)
+![Result 9](./screenshots/result-09.png)
+![Result 10](./screenshots/result-10.png)
 
 ***Running and Interacting with Containers***
 
@@ -105,8 +105,8 @@ exit
 docker rm web
 ```
 
-![Result 11](./result-11.png)
-![Result 12](./result-12.png)
+![Result 11](./screenshots/result-11.png)
+![Result 12](./screenshots/result-12.png)
 
 ```bash
 # To interact with a running container,
@@ -127,9 +127,9 @@ docker stop web
 docker rm web
 ```
 
-![Result 13](./result-13.png)
-![Result 14](./result-14.png)
-![Result 15](./result-15.png)
+![Result 13](./screenshots/result-13.png)
+![Result 14](./screenshots/result-14.png)
+![Result 15](./screenshots/result-15.png)
 
 ***Docker Volumes Commands***
 
@@ -148,10 +148,10 @@ docker stop web
 docker rm web
 ```
 
-![Result 16](./result-16.png)
-![Result 17](./result-17.png)
-![Result 18](./result-18.png)
-![Result 19](./result-19.png)
+![Result 16](./screenshots/result-16.png)
+![Result 17](./screenshots/result-17.png)
+![Result 18](./screenshots/result-18.png)
+![Result 19](./screenshots/result-19.png)
 
 ```bash
 # Method 2: Create a Docker volume
@@ -174,12 +174,12 @@ docker rm web
 docker volume rm nginx-volume
 ```
 
-![Result 20](./result-20.png)
-![Result 21](./result-21.png)
-![Result 22](./result-22.png)
-![Result 23](./result-23.png)
-![Result 24](./result-24.png)
-![Result 25](./result-25.png)
+![Result 20](./screenshots/result-20.png)
+![Result 21](./screenshots/result-21.png)
+![Result 22](./screenshots/result-22.png)
+![Result 23](./screenshots/result-23.png)
+![Result 24](./screenshots/result-24.png)
+![Result 25](./screenshots/result-25.png)
 
 ***Docker Network Commands***
 
@@ -221,9 +221,9 @@ docker rm web db
 docker network rm nginx-network
 ```
 
-![Result 26](./result-26.png)
-![Result 27](./result-27.png)
-![Result 28](./result-28.png)
-![Result 29](./result-29.png)
-![Result 30](./result-30.png)
-![Result 31](./result-31.png)
+![Result 26](./screenshots/result-26.png)
+![Result 27](./screenshots/result-27.png)
+![Result 28](./screenshots/result-28.png)
+![Result 29](./screenshots/result-29.png)
+![Result 30](./screenshots/result-30.png)
+![Result 31](./screenshots/result-31.png)

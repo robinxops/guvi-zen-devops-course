@@ -8,7 +8,7 @@
 nslookup guvi.in
 ```
 
-![Result 1](./result-1.png)
+![Result 1](./screenshots/result-1.png)
 
 **Step 2:** Find ***CPU & Memory*** usage of a server.
 
@@ -16,7 +16,7 @@ nslookup guvi.in
 top -n 1
 ```
 
-![Result 2](./result-2.png)
+![Result 2](./screenshots/result-2.png)
 
 **Step 3:** Test the connectivity between 2 nodes.
 
@@ -24,4 +24,4 @@ top -n 1
 ping guvi.in
 ```
 
-![Result 3](./result-3.png)
+![Result 3](./screenshots/result-3.png)
