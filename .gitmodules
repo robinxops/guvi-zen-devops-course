@@ -1,3 +1,6 @@
 [submodule "guvi-zen-devops-vcs-task"]
 	path = tasks/05-vcs-task/task-1/guvi-zen-devops-vcs-task
 	url = git@github.com:christine-robinson/guvi-zen-devops-vcs-task.git
+[submodule "reactjs-ecommerce-application"]
+	path = projects/01-devops-application-deployment-capstone/reactjs-ecommerce-application
+	url = https://github.com/christine-robinson/reactjs-ecommerce-application.git
