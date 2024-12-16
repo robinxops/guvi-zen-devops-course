@@ -41,7 +41,7 @@ chmod +x check_http_status.sh
 ls -l
 ```
 
-![Result 1](./result-1.png)
+![Result 1](./screenshots/result-1.png)
 
 **Step 3:** Run the script with arguments.
 
@@ -49,4 +49,4 @@ ls -l
 ./check_http_status.sh https://guvi.in
 ```
 
-![Result 2](./result-2.png)
+![Result 2](./screenshots/result-2.png)

@@ -1,0 +1,8 @@
+services:
+  web:
+    image: christinerobinson101/guvi-docker-task-3:latest
+    container_name: web
+    ports:
+      - 80:80
+    volumes:
+      - ./web:/var/opt/nginx:ro

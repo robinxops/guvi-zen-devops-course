@@ -8,4 +8,4 @@
 telnet guvi.com 9000
 ```
 
-![Result 1](./result-1.png)
+![Result 1](./screenshots/result-1.png)
