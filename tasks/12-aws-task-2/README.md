@@ -1,6 +1,6 @@
 # Guvi Zen DevOps Course - Tasks
 
-## 12. AWS Task - 2 
+## 12. AWS Task - 2
 
 ### Task Description
 
