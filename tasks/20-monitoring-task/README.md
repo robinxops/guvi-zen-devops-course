@@ -9,6 +9,6 @@
 ### Tech stacks needs to be used
 
 - AWS EC2
-- Prometheus 
+- Prometheus
 - Grafana
 - Node Exporter

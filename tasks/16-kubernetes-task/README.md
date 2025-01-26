@@ -10,9 +10,9 @@
 
 - Vbox, WSL
 - Docker
-- Minikube 
+- Minikube
 - Kubectl
 
 > If the Local system has any issues you can use AWS.
-- AWS EC2 (t2.medium)
 
+- AWS EC2 (t2.medium)
