@@ -1,0 +1,44 @@
+# Terraform State Files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Crash Logs
+crash.log
+
+# Terraform Plan Output
+*.tfplan
+
+# Local and Remote Overrides
+*.override.tf
+*.override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore sensitive variable files
+*.tfvars
+*.tfvars.json
+
+!terraform.tfvars
+!envs/*.tfvars
+!envs/*.tfvars.json
+
+# CLI Configuration Files
+.terraformrc
+terraform.rc
+
+# Plugin Directories
+.terraform/
+
+# Lock Files
+.terraform.lock.hcl
+
+# Sensitive Files (if any custom naming is used)
+*.secret
+*.key
+*.pem
+
+# Other IDE and system files
+.idea/
+.vscode/
+*.swp
+.DS_Store
