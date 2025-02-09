@@ -147,4 +147,7 @@ docker compose up -d
 ```
 
 ![Result 6.1](./screenshots/result-06-01.png)
+
 ![Result 6.2](./screenshots/result-06-02.png)
+
+![Result 6.3](./screenshots/result-06-03.png)
